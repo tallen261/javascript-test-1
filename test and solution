@@ -1,0 +1,31 @@
+OCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script   src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--Looping a triangle
+
+Write a loop that makes seven calls to console.log to output the following triangle:
+
+#
+##
+###
+####
+#####
+######
+####### -->
+
+<script>
+	var triangle = "#";
+	var triCount = 1;
+	while (triCount <= 7){
+		console.log(triangle);
+		triangle = triangle + "#";
+		triCount = triCount +1;
+	}
+</script>
+</body>
+</html>
